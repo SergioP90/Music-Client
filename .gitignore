@@ -161,3 +161,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Ignore the database and contents of blob storage that is not the readme
+src/db/*.db
+src/db/blob/*
+!src/db/blob/README.txt
